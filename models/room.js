@@ -1,23 +1,24 @@
 import mongoose from "mongoose";
 
+
 const roomSchema = new mongoose.Schema({
   name: {
     type: String,
-    required: [true, "Please enter a room name."],
+    required: [true, "Please enter room name."],
     trim: true,
-    maxlength: [100, "Room cannot exceed 100 characters"],
+    maxlength: [100, "Room name cannot exceed 100 characters"],
   },
   price: {
     type: Number,
-    required: [true, "Please enter room price."],
-    maxlength: [4, "Room cannot exceed 4 characters"],
+    required: [true, "Please enter room price"],
+    maxlength: [4, "Room price cannot exceed 4 characters"],
     default: 0.0,
   },
   description: {
     type: String,
-    required: [true, "Please enter room description."],
+    required: [true, "Please a room description."],
     trim: true,
-    maxlength: [250, "Room cannot exceed 250 characters"],
+    maxlength: [250, "Room description cannot exceed 200 characters."],
   },
   address: {
     type: String,
@@ -118,31 +119,31 @@ const roomSchema = new mongoose.Schema({
       user: {
         type: mongoose.Schema.ObjectId,
         ref: "User",
-        required: true,
+        required: false,
       },
       name: {
-        type: mongoose.Schema.String,
-        required: true,
+        type: String,
+        required: false,
       },
       rating: {
-        type: mongoose.Schema.Number,
-        required: true,
+        type: Number,
+        required: false,
       },
       remarks: {
-        type: mongoose.Schema.String,
-        required: true,
+        type: String,
+        required: false,
       },
     },
   ],
-  user: {
-    type: mongoose.Schema.ObjectId,
-    ref: "User",
-    required: false,
-  },
-  createdAt: {
-    type: Date,
-    default: Date.now,
-  },
+    user: {
+      type: mongoose.Schema.ObjectId,
+      ref: "User",
+      required: false,
+    },
+    createdAt: {
+      type: Date,
+      default: Date.now,
+    },
 });
 
-export default mongoose.models.Room || mongoose.model("Room", userSchema);
+export default mongoose.models.Room || mongoose.model('Room', roomSchema);

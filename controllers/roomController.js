@@ -7,11 +7,13 @@ const getAllRooms = (req, res) => {
   });
 };
 
-// Create Room => /api/rooms
+// Create Room
 const createRoom = async (req, res) => {
   try {
     const room = await Room.create(req.body);
-    res.status(200).json({ success: true, room });
+    if (room) {
+      res.status(200).json({ success: true, room });
+    }
   } catch (error) {
     res.status.json({
       success: false,

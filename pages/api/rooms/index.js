@@ -7,6 +7,7 @@ const handler = nc();
 
 dbConnect();
 
+// ROOM ACTION METHODS:
 handler.get(getAllRooms);
 handler.post(createRoom);
 
