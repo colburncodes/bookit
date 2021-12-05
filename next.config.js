@@ -1,6 +1,9 @@
+require('dotenv').config()
+
 module.exports = {
+  reactStrictMode: true,
   env: {
     DB_LOCAL_URI:
-      "mongodb+srv://colburn123:colburn123@e-commerc.jbb54.mongodb.net/bookit?retryWrites=true&w=majority",
+      process.env.DB_LOCAL_URI
   },
 };
