@@ -9,7 +9,6 @@ const dbConnect = () => {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     })
-    .then((x) => console.log("Connected to database..."));
 };
 
 export default dbConnect;

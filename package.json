@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "seeder": "next seeder"
+    "seeder": "node utils/seeder"
   },
   "dependencies": {
     "dotenv": "^10.0.0",
