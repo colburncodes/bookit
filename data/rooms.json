@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Charming Studio < 10 Miles to Wells'! Beaches.",
+    "price": 155,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iru.",
+    "address": "4667 Bicetown Street, New York, NY, 10004",
+    "capacity": 3,
+    "numOfBeds": 2,
+    "parking": true,
+    "television": true,
+    "category": "Queen",
+    "images": [
+      {
+        "public_id": "bookit/rooms/1_bzynlv",
+        "url": "https://res.cloudinary.com/bookit/image/upload/v1618590762/bookit/rooms/1_bzynlv.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "_id": "61ac17c37017741f22482687",
+        "name": "Colburn Sanders",
+        "rating": 5,
+        "remarks": "This place was everything I needed to enjoy my stay."
+      }
+    ]
+  },
+  {
+    "name": "Charming Studio < 10 Miles to Wells'! Beaches.",
+    "price": 175,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iru.",
+    "address": "4667 Bicetown Street, New York, NY, 10004",
+    "capacity": 3,
+    "numOfBeds": 2,
+    "parking": true,
+    "television": true,
+    "category": "Queen",
+    "images": [
+      {
+        "public_id": "bookit/rooms/1_bzynlv",
+        "url": "https://res.cloudinary.com/bookit/image/upload/v1618590762/bookit/rooms/1_bzynlv.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "_id": "61ac17c37017741f22482687",
+        "name": "Colburn Sanders",
+        "rating": 5,
+        "remarks": "This place was everything I needed to enjoy my stay."
+      }
+    ]
+  },
+  {
+    "name": "Charming Studio < 10 Miles to Wells'! Beaches.",
+    "price": 175,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iru.",
+    "address": "4667 Bicetown Street, New York, NY, 10004",
+    "capacity": 3,
+    "numOfBeds": 2,
+    "parking": true,
+    "television": true,
+    "category": "Queen",
+    "images": [
+      {
+        "public_id": "bookit/rooms/1_bzynlv",
+        "url": "https://res.cloudinary.com/bookit/image/upload/v1618590762/bookit/rooms/1_bzynlv.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "_id": "61ac17c37017741f22482687",
+        "name": "Colburn Sanders",
+        "rating": 5,
+        "remarks": "This place was everything I needed to enjoy my stay."
+      }
+    ]
+  },
+  {
+    "name": "Charming Studio < 10 Miles to Wells'! Beaches.",
+    "price": 175,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iru.",
+    "address": "4667 Bicetown Street, New York, NY, 10004",
+    "capacity": 3,
+    "numOfBeds": 2,
+    "parking": true,
+    "television": true,
+    "category": "Queen",
+    "images": [
+      {
+        "public_id": "bookit/rooms/1_bzynlv",
+        "url": "https://res.cloudinary.com/bookit/image/upload/v1618590762/bookit/rooms/1_bzynlv.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "_id": "61ac17c37017741f22482687",
+        "name": "Colburn Sanders",
+        "rating": 5,
+        "remarks": "This place was everything I needed to enjoy my stay."
+      }
+    ]
+  },
+  {
+    "name": "Charming Studio < 10 Miles to Wells'! Beaches.",
+    "price": 210,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iru.",
+    "address": "4667 Bicetown Street, New York, NY, 10004",
+    "capacity": 3,
+    "numOfBeds": 2,
+    "parking": true,
+    "television": true,
+    "category": "Queen",
+    "images": [
+      {
+        "public_id": "bookit/rooms/1_bzynlv",
+        "url": "https://res.cloudinary.com/bookit/image/upload/v1618590762/bookit/rooms/1_bzynlv.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "_id": "61ac17c37017741f22482687",
+        "name": "Colburn Sanders",
+        "rating": 5,
+        "remarks": "This place was everything I needed to enjoy my stay."
+      }
+    ]
+  },
+  {
+    "name": "Charming Studio < 10 Miles to Wells'! Beaches.",
+    "price": 175,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iru.",
+    "address": "4667 Bicetown Street, New York, NY, 10004",
+    "capacity": 3,
+    "numOfBeds": 2,
+    "parking": true,
+    "television": true,
+    "category": "Queen",
+    "images": [
+      {
+        "public_id": "bookit/rooms/1_bzynlv",
+        "url": "https://res.cloudinary.com/bookit/image/upload/v1618590762/bookit/rooms/1_bzynlv.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "_id": "61ac17c37017741f22482687",
+        "name": "Colburn Sanders",
+        "rating": 5,
+        "remarks": "This place was everything I needed to enjoy my stay."
+      }
+    ]
+  },
+  {
+    "name": "Charming Studio < 10 Miles to Wells'! Beaches.",
+    "price": 200,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iru.",
+    "address": "4667 Bicetown Street, New York, NY, 10004",
+    "capacity": 3,
+    "numOfBeds": 2,
+    "parking": true,
+    "television": true,
+    "category": "Queen",
+    "images": [
+      {
+        "public_id": "bookit/rooms/1_bzynlv",
+        "url": "https://res.cloudinary.com/bookit/image/upload/v1618590762/bookit/rooms/1_bzynlv.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "_id": "61ac17c37017741f22482687",
+        "name": "Colburn Sanders",
+        "rating": 5,
+        "remarks": "This place was everything I needed to enjoy my stay."
+      }
+    ]
+  },
+  {
+    "name": "Charming Studio < 10 Miles to Wells'! Beaches.",
+    "price": 250,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iru.",
+    "address": "4667 Bicetown Street, New York, NY, 10004",
+    "capacity": 3,
+    "numOfBeds": 2,
+    "parking": true,
+    "television": true,
+    "category": "King",
+    "images": [
+      {
+        "public_id": "bookit/rooms/1_bzynlv",
+        "url": "https://res.cloudinary.com/bookit/image/upload/v1618590762/bookit/rooms/1_bzynlv.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "_id": "61ac17c37017741f22482687",
+        "name": "Colburn Sanders",
+        "rating": 5,
+        "remarks": "This place was everything I needed to enjoy my stay."
+      }
+    ]
+  }
+]
