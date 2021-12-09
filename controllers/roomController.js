@@ -19,9 +19,7 @@ const getAllRooms = async (req, res) => {
 const createRoom = async (req, res) => {
   try {
     const room = await Room.create(req.body);
-    if (room) {
-      res.status(200).json({ success: true, room });
-    }
+    res.status(200).json({ success: true, room });
   } catch (error) {
     res.status(400).json({
       success: false,
@@ -66,7 +64,6 @@ const editRoomById = async (req, res) => {
       useFindAndModify: false,
     });
     res.status(200).json({ success: true, room });
-
   } catch (error) {
     res.status(400).json({
       success: false,
@@ -86,13 +83,10 @@ const deleteById = async (req, res) => {
       });
     }
     // delete room
-    room = await Room.findByIdAndDelete(req.query.id, {
-      new: true,
-      runValidators: true,
-      useFindAndModify: false,
-    });
-    res.status(200).json({ success: true, room });
-    
+    await room.remove();
+    res
+      .status(200)
+      .json({ success: true, message: "Room has been deleted..." });
   } catch (error) {
     res.status(400).json({
       success: false,
@@ -100,6 +94,5 @@ const deleteById = async (req, res) => {
     });
   }
 };
-
 
 export { getAllRooms, createRoom, getRoomById, editRoomById, deleteById };
