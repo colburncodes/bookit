@@ -1,17 +1,16 @@
 import nc from "next-connect";
 import dbConnect from "../../../config/dbConnect";
-
 import {
-  getAllRooms,
-  createRoom,
+  getRoomById,
+  editRoomById,
+  deleteById,
 } from "../../../controllers/roomController";
 
 const handler = nc();
-
 dbConnect();
 
-// ROOM ACTION METHODS:
-handler.get(getAllRooms);
-handler.post(createRoom);
+handler.get(getRoomById);
+handler.put(editRoomById);
+handler.delete(deleteById);
 
 export default handler;
